@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+.menuh1{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    padding: 11px;
+    gap: 10px;
+    justify-content: flex-start;
+    background-color: #6d1d20;
+   
+}
+.menuh li{
+    display: inline;
+    list-style: none;
+    font: 14px Arial, sans-serif;
+    /*background-color:#6d1d20;*/
+    
+}
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0px;
+    font-family:14px"museo-sans", Sans-serif;
+    
+}
+.carrosel-blog{
+    margin-left: 25%;
+    position: initial;
+    margin-top: 2%;
+    width: 1000px;
+    height: 500px;
+    size: 500px;
+    text-align: center;
+    
+}
+
+.ladoalado{
+    
+    width: 100%;
+    padding-top: 5px;
+    background-color: hwb(34 77% 7% / 0.966);
+    /*display: flex;  */
+}
+img.logo1{
+    margin-top: 2.73%;
+    width: 500px;
+}
+.ladoalado h1{
+    /*font-size:90px;*/
+    font: 90px Arial, sans-serif;
+    color:#6d1d20;
+    right: 45%;
+    position: absolute;
+    top: 7%;
+    font-style: oblique;
+    
+}
+.conteudo1{
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+
+}
+.agaum{
+    padding-top:30px;
+    padding-left: 30px;
+}
+.b{
+    display: flex;
+    color: blue;
+}
+.b p{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: medium;
+}
+.mini{
+    flex-direction: row;
+    padding: 40px;
+}
+img .mini{
+    width: 20%;
+    height: 400px;
+}
+.b img{
+    height: 250px;
+    width: 500px;
+}
+.mini{
+    padding-left: 100px;
+    width: 100%;
+    height: 200px;
+}
+
+
+footer{
+    background:#6d1d20 ;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    
+}
+
+
+.rodape ul{
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+    
+}
+@media (max-width: 850px){
+    .menuh1{
+        height: 40px;
+    }
+    .menuh li{
+        display: inline;
+        list-style: none;
+        font: 11.5px Arial, sans-serif;
+        /*background-color:#6d1d20;*/
+        } 
+    
+    .ladoalado{
+        width: 200%;
+        height: 100px;
+        /*padding-top: 4.5px;*/
+        background-color: hwb(34 77% 7% / 0.966);
+
+    
+    }
+    .ladoalado h1{
+        margin-top: -4%;
+        left: 150px;
+        font-size: 50px;
+}
+    img.logo1{
+        margin-top: 13.9%;
+        width: 120px;
+    }
+    .carrosel-blog{
+        width: 390px;
+        margin-left: 0%;
+        margin-top: 0%;
+        height: 150px;
+    }
+
+    body h1{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    body h4{
+        font-size: 13px;
+    }
+
+    .mini{
+        width:200px;
+        height: 100px;
+        text-align: center;
+        padding: 0%;
+        size: 100px;
+
+        }
+    .b{
+        display: block;
+        width: 100%;
+    
+    }
+    .b img{
+        width: 300px;
+        height: 150px;
+        margin-left: 40px;
+    }
+    .b p{
+        margin-top: 0%;
+        font-size: 13px;
+        padding-right:5% ;
+    }
+    .space{
+        margin-bottom:80px ;
+    }
+    footer{
+        margin-top: 10px;
+        bottom: 0;
+        position:fixed;
+        font: 10px Arial, sans-serif;
+        height: 70px;
+        width: 50%;
+        text-align: center;
+    }
+    .rodape ul{
+        text-align: center;
+        font-size: 11.5px;
+    }
+    .rodape h4{
+        font-size: 12px;
+    }
+}
